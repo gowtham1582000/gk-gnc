@@ -34,63 +34,22 @@
 
 </head>
 
-<body class="yellow">
+<body>
 
     <!-- Preloader Start -->
     <div class="se-pre-con"></div>
     <!-- Preloader Ends -->
-
-    <!-- Start Header Top 
-    ============================================= -->
-    <div class="top-bar-area bg-dark text-light">
-        <div class="container">
-            <div class="row align-center">
-                <div class="col-lg-3 shape">
-                    <ul class="social">
-                        <li class="facebook">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        </li>
-                        <li class="twitter">
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                        </li>
-                        <li class="pinterest">
-                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                        </li>
-                        <li class="linkedin">
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-9 info float-right text-right">
-                    <div class="info box">
-                        <ul class="list">
-                            <li>
-                                <i class="fas fa-map-marker-alt"></i>
-                                California, TX 70240
-                            </li>
-                            <li>
-                                <i class="fas fa-envelope-open"></i>
-                                <a href="mailto:info@gmail.com">info@gmail.com</a>
-                            </li>
-                        </ul>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Header Top -->
 
     <!-- Header 
     ============================================= -->
     <header id="home">
 
         <!-- Start Navigation -->
-        <nav class="navbar navbar-default inc-top-bar navbar-fixed navbar-transparent white bootsnav">
+        <nav class="navbar navbar-default attr-bg navbar-fixed white no-background bootsnav nav-full">
 
             <!-- Start Top Search -->
             <div class="top-search">
-                <div class="container">
+                <div class="container-full">
                     <form method="get">
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-search"></i></span>
@@ -106,16 +65,17 @@
 
                 <!-- Start Atribute Navigation -->
                 <div class="attr-nav">
-                    <div class="call">
-                        <a href="tel:+1234567890">
-                            <i class="fas fa-phone"></i>
-                            <div class="contact">
-                                <h4>+886 34467</h4>
-                                <span>Call Us Anytime</span>
-                            </div>
-                        </a>
-                    </div>
-                </div>        
+                    <ul>
+                        <li class="search"><a href="#"><i class="ti-search"></i></a></li>
+                        <li class="side-menu">
+                            <a href="#">
+                                <span class="bar-1"></span>
+                                <span class="bar-2"></span>
+                                <span class="bar-3"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>       
                 <!-- End Atribute Navigation -->
 
                 <!-- Start Header Navigation -->
@@ -124,15 +84,15 @@
                         <i class="fa fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="index.html">
-                        <img src="assets/img/logo-light.png" class="logo logo-display" alt="Logo">
-                        <img src="assets/img/logo-yellow.png" class="logo logo-scrolled" alt="Logo">
+                        <img src="assets/img/logo-icon.png" class="logo regular" alt="Logo">
+                        <img src="assets/img/logo.png" class="logo logo-responsive" alt="Logo">
                     </a>
                 </div>
                 <!-- End Header Navigation -->
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
-                    <ul class="nav navbar-nav navbar-right" data-in="#" data-out="#">
+                    <ul class="nav navbar-nav navbar-center" data-in="#" data-out="#">
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle active" data-toggle="dropdown" >Home</a>
                             <ul class="dropdown-menu">
@@ -230,6 +190,63 @@
                 </div><!-- /.navbar-collapse -->
             </div>
 
+            <!-- Start Side Menu -->
+            <div class="side">
+                <a href="#" class="close-side"><i class="fas fa-times"></i></a>
+                <div class="widget">
+                    <img src="assets/img/logo.png" alt="Logo">
+                    <p>
+                        Arrived compass prepare an on as. Reasonable particular on my it in sympathize. Size now easy eat hand how. Unwilling he departure elsewhere dejection at. Heart large seems may purse means few blind.
+                    </p>
+                </div>
+                <div class="widget address">
+                    <div>
+                        <ul>
+                            <li>
+                                <div class="content">
+                                    <p>Address</p> 
+                                    <strong>California, TX 70240</strong>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <p>Email</p> 
+                                    <strong>support@validtheme.com</strong>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="content">
+                                    <p>Contact</p> 
+                                    <strong>+44-20-7328-4499</strong>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="widget newsletter">
+                    <h4 class="title">Get Subscribed!</h4>
+                    <form action="#">
+                        <div class="input-group stylish-input-group">
+                            <input type="email" placeholder="Enter your e-mail" class="form-control" name="email">
+                            <span class="input-group-addon">
+                                <button type="submit">
+                                    <i class="fas fa-long-arrow-right"></i>
+                                </button>  
+                            </span>
+                        </div>
+                    </form>
+                </div>
+                <div class="widget social">
+                    <ul class="link">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- End Side Menu -->
+
         </nav>
         <!-- End Navigation -->
 
@@ -238,22 +255,26 @@
 
     <!-- Start Banner 
     ============================================= -->
-    <div class="banner-area top-pad-90 border-shape default text-light">
+    <div class="banner-area shadow inc-content bg-dark banner-style-standard text-light auto-height banner-box default">
         <div id="bootcarousel" class="carousel slide carousel-fade animate_text" data-ride="carousel">
             <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="carousel-item bg-cover active" style="background-image: url(assets/img/banner/26.jpg);">
+            <div class="carousel-inner carousel-zoom">
+                <div class="carousel-item active">
+                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/banner/29.jpg);"></div>
                     <div class="box-table">
-                        <div class="box-cell shadow dark">
+                        <div class="box-cell">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-8 offset-lg-2">
                                         <div class="content">
-                                            <div class="shape animated slideInLeft"></div>
-                                            <h3 data-animation="animated slideInUp">Professional Services</h3>
-                                            <h2 data-animation="animated slideInDown">Innovative And Industrial Solutions</h2>
+                                            <h3 data-animation="animated slideInRight">Explore The Features</h3>
+                                            <h2 data-animation="animated slideInDown">Advance Models</h2>
+                                            <p data-animation="animated slideInLeft">
+                                                Last ask him cold feel met spot shy want. Children me laughing we prospect answered followed. At it went is song. Last ask him cold feel met spot.
+                                            </p>
                                             <div class="slider-button">
-                                                <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="gallery-load-more.html">View Projects</a>
+                                                <a data-animation="animated slideInUp" class="btn btn-light border btn-md" href="#">Read More</a>
+                                                <a data-animation="animated slideInUp" class="btn btn-dark theme btn-md" href="#">Contact Us</a>
                                             </div>
                                         </div>
                                     </div>
@@ -262,18 +283,22 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item bg-cover" style="background-image: url(assets/img/banner/24.jpg);">
+                <div class="carousel-item">
+                    <div class="slider-thumb bg-cover" style="background-image: url(assets/img/banner/27.jpg);"></div>
                     <div class="box-table">
-                        <div class="box-cell shadow dark">
+                        <div class="box-cell">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-8 offset-lg-2">
                                         <div class="content">
-                                            <div class="shape animated slideInLeft"></div>
-                                            <h3 data-animation="animated slideInUp">General Contracting</h3>
-                                            <h2 data-animation="animated slideInRight">Empowering Oil Refiling And Plants</h2>
+                                            <h3 data-animation="animated slideInUp">Explore The Features</h3>
+                                            <h2 data-animation="animated slideInDown">Modern Cityscape</h2>
+                                            <p data-animation="animated slideInDown">
+                                                Last ask him cold feel met spot shy want. Children me laughing we prospect answered followed. At it went is song. Last ask him cold feel met spot.
+                                            </p>
                                             <div class="slider-button">
-                                                <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="gallery-load-more.html">View Projects</a>
+                                                <a data-animation="animated slideInUp" class="btn btn-light border btn-md" href="#">Read More</a>
+                                                <a data-animation="animated slideInUp" class="btn btn-dark theme btn-md" href="#">Contact Us</a>
                                             </div>
                                         </div>
                                     </div>
@@ -286,11 +311,11 @@
             <!-- End Wrapper for slides -->
 
             <!-- Left and right controls -->
-            <a class="left carousel-control theme" href="#bootcarousel" data-slide="prev">
+            <a class="left carousel-control light" href="#bootcarousel" data-slide="prev">
                 <i class="fa fa-angle-left"></i>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="right carousel-control theme" href="#bootcarousel" data-slide="next">
+            <a class="right carousel-control light" href="#bootcarousel" data-slide="next">
                 <i class="fa fa-angle-right"></i>
                 <span class="sr-only">Next</span>
             </a>
@@ -298,19 +323,55 @@
     </div>
     <!-- End Banner -->
 
-    <!-- Start Feature Area
+    <!-- Start Services Area
     ============================================= -->
-    <div class="default-padding-top our-features-area">
-        <div class="container-full">
-            <div class="feature-item text-light">
+    <div class="services-area default-padding-top">
+        <div class="container">
+            <div class="services-style-three">
                 <div class="row">
-                    <div class="col-lg-3 col-md-6 thumb" style="background-image: url(assets/img/about/9.jpg);"></div>
-                    <div class="col-lg-3 col-md-6 info">
-                        <h2><strong>25</strong> Years of experience</h2>
+                    <div class="col-lg-4 col-md-6 service-item-style-three">
+                        <h6>What we do</h6>
+                        <h2>Building Everything <br> That You Needed.</h2>
                     </div>
-                    <div class="col-lg-3 col-md-6 thumb" style="background-image: url(assets/img/about/7.jpg);"></div>
-                    <div class="col-lg-3 col-md-6 info">
-                        <h2>Hardworking staff and engineer's working in  our company.</h2>
+                    <div class="col-lg-4 col-md-6 service-item-style-three">
+                        <div class="thumb" style="background: url(assets/img/service-con/1.jpg);"></div>
+                        <i class="flaticon-engineer-3"></i>
+                        <h4><a href="services-details.html">Architecture</a></h4>
+                        <p>
+                            Direct enough off others say eldest may exeter she pain oni. Possible all ignorant supplied get settling marriage.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 service-item-style-three">
+                        <div class="thumb" style="background: url(assets/img/service-con/2.jpg);"></div>
+                        <i class="flaticon-machinery"></i>
+                        <h4><a href="services-details.html">Building Repair</a></h4>
+                        <p>
+                            Direct enough off others say eldest may exeter she pain oni. Possible all ignorant supplied get settling marriage.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 service-item-style-three">
+                        <div class="thumb" style="background: url(assets/img/service-con/3.jpg);"></div>
+                        <i class="flaticon-bridge"></i>
+                        <h4><a href="services-details.html">Bridge Construction</a></h4>
+                        <p>
+                            Direct enough off others say eldest may exeter she pain oni. Possible all ignorant supplied get settling marriage.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 service-item-style-three">
+                        <div class="thumb" style="background: url(assets/img/service-con/4.jpg);"></div>
+                        <i class="flaticon-house"></i>
+                        <h4><a href="services-details.html">Home Interior</a></h4>
+                        <p>
+                            Direct enough off others say eldest may exeter she pain oni. Possible all ignorant supplied get settling marriage.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 service-item-style-three">
+                        <div class="thumb" style="background: url(assets/img/service-con/5.jpg);"></div>
+                        <i class="flaticon-ruler"></i>
+                        <h4><a href="services-details.html">Sketching</a></h4>
+                        <p>
+                            Direct enough off others say eldest may exeter she pain oni. Possible all ignorant supplied get settling marriage.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -320,326 +381,227 @@
 
     <!-- Start Our About
     ============================================= -->
-    <div class="about-area ver-two overflow-hidden shape-box default-padding-top">
-        <!-- Fixed Shape -->
-        <div class="fixed-shape">
-            <img src="assets/img/shape/1.png" alt="Shape">
-        </div>
-        <!-- End Fixed Shape -->
+    <div class="about-area overflow-hidden default-padding">
         <div class="container">
-            <div class="row align-center">
-
-                <div class="col-lg-5 thumb-box">
-                    <div class="thumb">
-                        <img src="assets/img/illustration/1.png" alt="Thumb">
+            <div class="about-style-four-layout">
+                <div class="row align-center">
+                    <div class="col-lg-6">
+                        <div class="about-style-four-thumb">
+                            <img src="assets/img/thumb/1.jpg" alt="Thumb">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-style-four-info">
+                            <h4>About Our Company</h4>
+                            <h2>We Building Everything <br> That You Needed.</h2>
+                            <p>
+                                We have intentionally never developed a stylistic formula for our work, which is why our projects never quite look or feel the same. Each of our spaces is the result of our ability to listen. As the general contractor, we first create the highest level of trust and integrity with our clients. We value our role in the success of your project.
+                            </p>
+                            <div class="tab-content">
+                                <ul id="tabs" class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a href="" data-target="#tab1" data-toggle="tab" class="active nav-link">Technology</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" data-target="#tab2" data-toggle="tab" class="nav-link">Metarials</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" data-target="#tab3" data-toggle="tab" class="nav-link">Approved</a>
+                                    </li>
+                                </ul>
+                                <div id="tabsContent" class="tab-content">
+                                    <div id="tab1" class="tab-pane fade active show">
+                                        <ul>
+                                            <li>Intentional development authority</li>
+                                            <li>Stylistic formula method</li>
+                                            <li>Royal ability to listen design</li>
+                                        </ul>
+                                    </div>
+                                    <div id="tab2" class="tab-pane fade">
+                                        <ul>
+                                            <li>Stylistic formula method</li>
+                                            <li>Royal ability to listen design</li>
+                                            <li>Intentional development authority</li>
+                                        </ul>
+                                    </div>
+                                    <div id="tab3" class="tab-pane fade">
+                                        <ul>
+                                            <li>Royal ability to listen design</li>
+                                            <li>Intentional development authority</li>
+                                            <li>Stylistic formula method</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="btn-regular" href="#">Exprole More <i class="fas fa-angle-right"></i></a>
+                        </div>
                     </div>
                 </div>
-
-                <div class="col-lg-7 info">
-                    <h2 class="text-opacity little">Expertise</h2>
-                    <h2>Create Innovative and Sustainable <br> Places in the World.</h2>
-                    <p>
-                        Repair summer one winter living feebly pretty his. In so sense am known these since. Shortly respect ask cousins brought. Last ask him cold feel met spot shy want. Children me laughing we prospect. Me we offending Through it examine express promise no. Past add size game cold girl off how old
-                    </p>
-                    <ul class="achivement">
-                        <li>
-                            <div class="fun-fact">
-                                <div class="counter">
-                                    <div class="timer" data-to="2800" data-speed="2000">2800</div>
-                                    <div class="operator">+</div>
-                                </div>
-                                <span class="medium">Portfolio Completed In <br> The Last 5 Years</span>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="fun-fact">
-                                <div class="counter">
-                                    <div class="timer" data-to="100" data-speed="2000">100</div>
-                                    <div class="operator">%</div>
-                                </div>
-                                <span class="medium">Happy Customers <br> Who Trusted Us</span>
-                            </div>
-                        </li>
-                    </ul>
-                    <a class="btn btn-theme effect btn-md" href="about-us.html">Know More</a>
-                </div>
-                
             </div>
         </div>
-        <!-- Shape -->
-        <div class="shape-bg">
-            <img src="assets/img/shape.png" alt="Shape">
-        </div>
-        <!-- End Shape -->
     </div>
     <!-- End Our About -->
 
-    <!-- Start Services 
+    <!-- Start Consulting Area
     ============================================= -->
-    <div class="services-area carousel-shadow with-thumb bg-gray default-padding">
+    <div class="consulting-area shape-less overflow-hidden relative">
+        <div class="container">
+            <div class="inner-items">
+                <div class="row">
+                    <div class="col-lg-6 text-light left-info">
+                        <div class="item">
+                            <h4>Building better products</h4>
+                            <p>
+                                Words which don't look even believable. If you are going appoinments to use maximum need to be sure there isn't anything.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <h4>Effective Industrial Team Work</h4>
+                            <p>
+                                Last ask him cold feel met spot shy want. Children me laughing we prospect. Me we offending If you are going to use a of you need to be sure there isn't anything.
+                            </p>
+                        </div>
+                        <ul class="achivement">
+                            <li>
+                                <div class="fun-fact">
+                                    <div class="counter">
+                                        <div class="timer" data-to="86" data-speed="5000">86</div>
+                                        <div class="operator">K</div>
+                                    </div>
+                                    <span class="medium">Trusted Users</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="fun-fact">
+                                    <div class="counter">
+                                        <div class="timer" data-to="100" data-speed="5000">100</div>
+                                        <div class="operator">%</div>
+                                    </div>
+                                    <span class="medium">Positive Rating</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 right-info" style="background-image: url(assets/img/banner/28.jpg);">
+                        <h2>Our Construction is <br> Built on Culture</h2>
+                        <p>
+                            Our work is only good as our people. Meet the team who makes our projects successful.
+                        </p>
+                        <a class="btn btn-light effect btn-md" href="#">Start Consulting</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Consulting Area -->
+
+    <!-- Start Portfolio Area 
+    ============================================= -->
+    <div class="portfolio-area default-padding">
+        <!-- Fixed Shape -->
+        <div class="top-sahpe" style="background-image: url(assets/img/shape/14.png);"></div>
+        <!-- Fixed Shape -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
                     <div class="site-heading text-center">
-                        <h4>What We Do</h4>
-                        <h2>Our Services</h2>
+                        <h4>Portfolio</h4>
+                        <h2>Latest Work</h2>
                         <p>
                             While mirth large of on front. Ye he greater related adapted proceed entered an. Through it examine express promise no. Past add size game cold girl off how old
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="services-items services-carousel owl-carousel owl-theme">
-                        <!-- Single Item -->
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/services/1.jpg" alt="Thumb">
-                            </div>
-                            <div class="info">
-                                <i class="flaticon-milling-machine"></i>
-                                <h4>
-                                    <a href="services-details.html">Construction & Engineering</a>
-                                </h4>
-                                <p>
-                                    Direct enough off others say eldest may exeter she. Possible all ignorant supplied get settling marriage recurred. Past add size game.
-                                </p>
-                                <div class="button">
-                                    <a href="services-details.html">Read More <i class="fas fa-plus"></i></a>
+        </div>
+        <div class="container-full">
+            <div class="portfolio-box">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="portfolio-carousel owl-carousel owl-theme">
+                            <!-- Single Item -->
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="assets/img/construction/5.jpg" alt="Thumb">
+                                </div>
+                                <div class="info">
+                                    <div class="content">
+                                        <div class="left">
+                                            <h5><a href="projects-details.html">Home Interior</a></h5>
+                                            <span> <strong>Launch Date:</strong> 12 Oct 2021</span>
+                                        </div>
+                                        <div class="right">
+                                            <a href="projects-details.html"><i class="fal fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/services/2.jpg" alt="Thumb">
-                            </div>
-                            <div class="info">
-                                <i class="flaticon-wind-energy"></i>
-                                <h4>
-                                    <a href="services-details.html">Power & Energy</a>
-                                </h4>
-                                <p>
-                                    Direct enough off others say eldest may exeter she. Possible all ignorant supplied get settling marriage recurred. Past add size game.
-                                </p>
-                                <div class="button text-right">
-                                    <a href="services-details.html">Read More <i class="fas fa-plus"></i></a>
+                            <!-- End Single Item -->
+                            <!-- Single Item -->
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="assets/img/construction/2.jpg" alt="Thumb">
+                                </div>
+                                <div class="info">
+                                    <div class="content">
+                                        <div class="left">
+                                            <h5><a href="projects-details.html">Building Repair</a></h5>
+                                            <span> <strong>Launch Date:</strong> 16 Aug 2021</span>
+                                        </div>
+                                        <div class="right">
+                                            <a href="projects-details.html"><i class="fal fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/services/3.jpg" alt="Thumb">
-                            </div>
-                            <div class="info">
-                                <i class="flaticon-house"></i>
-                                <h4>
-                                    <a href="services-details.html">Mechanical Engineering</a>
-                                </h4>
-                                <p>
-                                    Direct enough off others say eldest may exeter she. Possible all ignorant supplied get settling marriage recurred. Past add size game.
-                                </p>
-                                <div class="button text-right">
-                                    <a href="services-details.html">Read More <i class="fas fa-plus"></i></a>
+                            <!-- End Single Item -->
+                            <!-- Single Item -->
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="assets/img/construction/3.jpg" alt="Thumb">
+                                </div>
+                                <div class="info">
+                                    <div class="content">
+                                        <div class="left">
+                                            <h5><a href="projects-details.html">Civil Engineering</a></h5>
+                                            <span> <strong>Launch Date:</strong> 28 Nov 2021</span>
+                                        </div>
+                                        <div class="right">
+                                            <a href="projects-details.html"><i class="fal fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        <div class="item">
-                            <div class="thumb">
-                                <img src="assets/img/services/4.jpg" alt="Thumb">
-                            </div>
-                            <div class="info">
-                                <i class="flaticon-building"></i>
-                                <h4>
-                                    <a href="services-details.html">Ship Building Insudtry</a>
-                                </h4>
-                                <p>
-                                    Direct enough off others say eldest may exeter she. Possible all ignorant supplied get settling marriage recurred. Past add size game.
-                                </p>
-                                <div class="button text-right">
-                                    <a href="services-details.html">Read More <i class="fas fa-plus"></i></a>
+                            <!-- End Single Item -->
+                            <!-- Single Item -->
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="assets/img/construction/4.jpg" alt="Thumb">
+                                </div>
+                                <div class="info">
+                                    <div class="content">
+                                        <div class="left">
+                                            <h5><a href="projects-details.html">Bridge Construction</a></h5>
+                                            <span> <strong>Launch Date:</strong> 12 Dec 2021</span>
+                                        </div>
+                                        <div class="right">
+                                            <a href="projects-details.html"><i class="fal fa-arrow-right"></i></a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            <!-- End Single Item -->
                         </div>
-                        <!-- End Single Item -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Services -->
-
-    <!-- Start Why Chose Us 
-    ============================================= -->
-    <div class="why-us-area default-padding shadow bg-dark text-light">
-        <!-- Fixed Thumb -->
-        <div class="fixed-thumb bg-cover" style="background-image: url(assets/img/banner/9.jpg);"></div>
-        <!-- End Fixed Thumb -->
-        <div class="container">
-            <div class="row align-center">
-                <div class="col-lg-5 offset-lg-3 left-info">
-                    <div class="content">
-                        <h4>Why Choose us</h4>
-                        <h2>Great Experience For Building Construction & Renovation</h2>
-                        <a class="btn btn-light effect btn-md" href="contact.html">Start a Projects</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 info">
-                    <div class="content">
-                        <ul>
-                            <li>
-                                <h5>Reliability</h5>
-                                <p>
-                                    Get open game him what hour more part. Adapted as smiling of females journey.
-                                </p>
-                            </li>
-                            <li>
-                                <h5>Innovation</h5>
-                                <p>
-                                    Get open game him what hour more part. Adapted as smiling of females oh me journey exposed concern mainly point.
-                                </p>
-                            </li>
-                            <li>
-                                <h5>Smart Technology</h5>
-                                <p>
-                                    Get open game him what hour more part. Adapted as smiling of females oh me journey exposed concern.
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Why Chose Us -->
-
-    <!-- Start Projects Area 
-    ============================================= -->
-    <div class="projects-area overflow-hidden default-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="project-item projects-carousel owl-carousel owl-theme">
-                        <!-- Single Item -->
-                        <div class="item">
-                            <div class="row align-center">
-                                <div class="col-lg-6 order-lg-last thumb-box">
-                                    <div class="thumb">
-                                        <img src="assets/img/portfolio/1.jpg" alt="Thumb">
-                                        <a href="https://www.youtube.com/watch?v=RprMgAcrpmg" class="popup-youtube"><i class="fas fa-video"></i></a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 info">
-                                    <h4>Running Prjects</h4>
-                                    <h2><a href="#">Ship Building Insudtry</a></h2>
-                                    <p>
-                                        Hope they dear who its bred. Smiling nothing affixed he carried it clothes calling he no. Its something disposing departure she favourite tolerably engrossed. Truth short folly court why she their balls.
-                                    </p>
-                                    <ul>
-                                        <li>
-                                            <h5>Project Type</h5>
-                                            <span>Factory</span>
-                                        </li>
-                                        <li>
-                                            <h5>Duration</h5>
-                                            <span>5 year</span>
-                                        </li>
-                                        <li>
-                                            <h5>Budget</h5>
-                                            <span>15m</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        <div class="item">
-                            <div class="row align-center">
-                                <div class="col-lg-6 order-lg-last thumb-box">
-                                    <div class="thumb">
-                                        <img src="assets/img/portfolio/2.jpg" alt="Thumb">
-                                        <a href="https://www.youtube.com/watch?v=RprMgAcrpmg" class="popup-youtube"><i class="fas fa-video"></i></a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 info">
-                                    <h4>Running Prjects</h4>
-                                    <h2><a href="#">Power & Energy</a></h2>
-                                    <p>
-                                        Hope they dear who its bred. Smiling nothing affixed he carried it clothes calling he no. Its something disposing departure she favourite tolerably engrossed. Truth short folly court why she their balls.
-                                    </p>
-                                    <ul>
-                                        <li>
-                                            <h5>Project Type</h5>
-                                            <span>Energy</span>
-                                        </li>
-                                        <li>
-                                            <h5>Duration</h5>
-                                            <span>8 year</span>
-                                        </li>
-                                        <li>
-                                            <h5>Budget</h5>
-                                            <span>27m</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        <div class="item">
-                            <div class="row align-center">
-                                <div class="col-lg-6 order-lg-last thumb-box">
-                                    <div class="thumb">
-                                        <img src="assets/img/portfolio/3.jpg" alt="Thumb">
-                                        <a href="https://www.youtube.com/watch?v=RprMgAcrpmg" class="popup-youtube"><i class="fas fa-video"></i></a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 info">
-                                    <h4>Running Prjects</h4>
-                                    <h2><a href="#">Mechanical Engineering</a></h2>
-                                    <p>
-                                        Hope they dear who its bred. Smiling nothing affixed he carried it clothes calling he no. Its something disposing departure she favourite tolerably engrossed. Truth short folly court why she their balls.
-                                    </p>
-                                    <ul>
-                                        <li>
-                                            <h5>Project Type</h5>
-                                            <span>Machine</span>
-                                        </li>
-                                        <li>
-                                            <h5>Duration</h5>
-                                            <span>3 year</span>
-                                        </li>
-                                        <li>
-                                            <h5>Budget</h5>
-                                            <span>10m</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End Projects Area -->
+    <!-- End Portfolio Area -->
 
     <!-- Start Team Area 
     ============================================= -->
-    <div class="team-area default-padding-top bottom-less bg-gray">
-        <!-- Fixed Shape  -->
-        <div class="fixed-shape">
-            <img src="assets/img/shape/4.svg" alt="Shape">
-        </div>
-        <!-- End Fixed Shape  -->
+    <div class="team-area default-padding-bottom bottom-less bg-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 offset-lg-2">
