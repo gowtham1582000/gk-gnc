@@ -580,6 +580,7 @@ background: linear-gradient(to bottom right, #FF5E14, #F3BA19);
 
 .default-padding {
   padding-top: 120px;
+  backdrop
   padding-bottom: 120px;
   position: relative;
 }
