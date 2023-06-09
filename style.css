@@ -547,7 +547,7 @@ background: linear-gradient(to bottom right, #FF5E14, #F3BA19);
 }
 
 .shadow.gradient-dark::after {
-  background: linear-gradient(to bottom, #00235a 0%,#2a3644 100%);
+  background: linear-gradient(to bottom, #053e8c 0%,#2a3644 100%);
   content: "";
   height: 100%;
   left: 0;
@@ -722,7 +722,7 @@ button, button:focus {
 }
 
 .btn-dark.theme {
-  background-color: #00235a;
+  background-color: #053e8c;
   color: #ffffff;
 }
 
@@ -749,14 +749,14 @@ button, button:focus {
 
 .btn-dark.border {
   background-color: transparent;
-  color: #00235a;
-  border: 2px solid #00235a !important;
+  color: #053e8c;
+  border: 2px solid #053e8c !important;
 }
 
 .btn-dark.border:hover {
-  background-color: #00235a;
+  background-color: #053e8c;
   color: #ffffff !important;
-  border: 2px solid #00235a !important;
+  border: 2px solid #053e8c !important;
 }
 
 .btn-light {
@@ -783,7 +783,7 @@ button, button:focus {
 }
 
 .shadow .btn-light::after {
-  background: #00235a;
+  background: #053e8c;
 }
 
 .btn-light:hover::after {
@@ -831,7 +831,7 @@ button, button:focus {
 }
 
 .bg-dark {
-  background: #00235a none repeat scroll 0 0 !important;
+  background: #053e8c none repeat scroll 0 0 !important;
 }
 
 .bg-dark-hard {
@@ -863,7 +863,7 @@ button, button:focus {
   height: 0;
   width: 0;
   transition: all 0.25s ease-in-out;
-  background: #00235a;
+  background: #053e8c;
   z-index: -1;
 }
 
@@ -1974,7 +1974,7 @@ body,
   bottom: 0;
   padding: 51px 100px;
   height: auto;
-  background: #00235a;
+  background: #053e8c;
   display: inline-block;
   width: 100px;
   z-index: 1;
@@ -2813,7 +2813,7 @@ body,
 
 .about-area .info .bottom .icon i {
   display: inline-block;
-  background: #00235a;
+  background: #053e8c;
   color: #ffffff;
   height: 60px;
   width: 60px;
@@ -3181,7 +3181,7 @@ body,
 =================================================================== */
 
 .our-features-area .feature-item {
-  background: #00235a;
+  background: #053e8c;
 }
 
 .our-features-area .feature-item .info:last-child {
@@ -5713,7 +5713,7 @@ ul.achivement li .medium {
   content: "";
   height: 50%;
   width: 100%;
-  background: #00235a none repeat scroll 0 0 !important;
+  background: #053e8c none repeat scroll 0 0 !important;
   z-index: -1;
 }
 
@@ -5861,7 +5861,7 @@ ul.achivement li .medium {
 
 .portfolio-area.half-bg-dark .item .info a {
   color: #ffffff;
-  background: #00235a;
+  background: #053e8c;
   padding-right: 20px;
 }
 
@@ -5994,7 +5994,7 @@ ul.achivement li .medium {
 }
 
 .portfolio-area .item .info .right a:hover {
-  background: #00235a;
+  background: #053e8c;
   color: #ffffff !important;
 }
 
@@ -7678,7 +7678,7 @@ ul.achivement li .medium {
   height: 0;
   width: 0;
   transition: all 0.25s ease-in-out;
-  background: #00235a;
+  background: #053e8c;
   z-index: -1;
 }
 
@@ -7688,7 +7688,7 @@ ul.achivement li .medium {
 }
 
 .comments-form button:hover {
-  border: 2px solid #00235a;
+  border: 2px solid #053e8c;
 }
 
 .comments-area .title h2, 
@@ -7881,7 +7881,7 @@ ul.pagination {
   content: "";
   height: 0;
   width: 0;
-  background: #00235a;
+  background: #053e8c;
   z-index: -1;
   transition: all 0.35s ease-in-out;
   border-radius: 5px;
@@ -8680,7 +8680,7 @@ nav.navbar.bootsnav.no-background li.search a {
   bottom: -5px;
   height: 0;
   width: 100px;
-  background: #00235a;
+  background: #053e8c;
   z-index: -1;
   opacity: 0.1;
   transition: all 0.35s ease-in-out;
@@ -8925,8 +8925,8 @@ nav.navbar.bootsnav.no-background li.search a {
 }
 
 .services-style-four .item:hover .btn {
-  background: #00235a;
-  border-color: #00235a;
+  background: #053e8c;
+  border-color: #053e8c;
   color: #ffffff;
 }
 
@@ -9215,7 +9215,7 @@ nav.navbar.bootsnav.no-background li.search a {
      # Home It Solution
 =================================================================== */
 .it-solution .shadow.dark::after {
-  background: #00235a none repeat scroll 0 0;
+  background: #053e8c none repeat scroll 0 0;
 }
 
 .it-solution .top-bar-area.bg-dark {
@@ -9442,13 +9442,13 @@ nav.navbar.bootsnav.no-background li.search a {
 }
 
 .it-solution .consulting-area .inner-items .right-info::after {
-  background: #00235a;
+  background: #053e8c;
   opacity: 0.7;
   box-shadow: inherit;
 }
 
 .it-solution .consulting-area .inner-items .left-info::before {
-  background: #00235a;
+  background: #053e8c;
 }
 
 .appoinment-form {
