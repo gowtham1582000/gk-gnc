@@ -2086,6 +2086,7 @@ nav.navbar.bootsnav {
   nav.navbar.bootsnav.navbar-fixed.navbar-transparent .logo-display, 
   nav.navbar.bootsnav.navbar-fixed.no-background .logo-display {
     display: block;
+    height:100px
   }
 
   nav.navbar.bootsnav.navbar-fixed .logo-display {
@@ -2094,6 +2095,7 @@ nav.navbar.bootsnav {
 
   nav.navbar.bootsnav.navbar-fixed .logo-scrolled {
     display: block;
+    height:100px
   }
 
   .attr-nav > ul > li.dropdown ul.dropdown-menu {
@@ -2165,7 +2167,7 @@ nav.navbar.bootsnav {
   }
 
   .navbar.navbar-transparent .attr-nav .call h4 {
-    color: #ffffff;
+    color: black;
   }
 
   .navbar.navbar-transparent .attr-nav .call span {
@@ -3331,7 +3333,7 @@ ul.cart-list > li.total > .btn {
   }
 
   nav.navbar.bootsnav.navbar-transparent.white {
-    background: transparent none repeat scroll 0 0;
+    background: white;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   }
 
@@ -3362,7 +3364,7 @@ ul.cart-list > li.total > .btn {
   nav.navbar.bootsnav.navbar-transparent.white .attr-nav > ul > li > a, 
   nav.navbar.bootsnav.navbar-transparent.white ul.nav > li > a, 
   nav.navbar.bootsnav.no-background.white ul.nav > li > a {
-    color: #fff;
+    color: #053e8c;
   }
 
   nav.navbar.bootsnav.navbar-transparent.dark .attr-nav > ul > li > a, 
