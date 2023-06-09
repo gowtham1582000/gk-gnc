@@ -476,17 +476,7 @@ background: linear-gradient(to bottom right, #FF5E14, #F3BA19);
   box-shadow: inherit !important;
 }
 
-.shadow.dark::after {
-  background: #000000 none repeat scroll 0 0;
-  content: "";
-  height: 100%;
-  left: 0;
-  opacity: 0.5;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -1;
-}
+
 
 .shadow.dark-hard::after {
   background: #000000 none repeat scroll 0 0;
@@ -1515,6 +1505,7 @@ body,
 .banner-area, 
 .banner-area div {
   height: 100vh;
+  bottom:0;
 }
 
 .banner-area.auto-height, 
@@ -8696,7 +8687,7 @@ nav.navbar.bootsnav.no-background li.search a {
 }
 
 .banner-area.banner-style-seven .carousel-item.active .box-cell .shape-line {
-  height: 470px;
+  height: 20px;
 }
 
 .banner-area.banner-style-seven .box-cell .shape-line:nth-child(2) {
