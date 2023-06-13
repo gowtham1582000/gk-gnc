@@ -8614,7 +8614,7 @@ nav.navbar.bootsnav.no-background li.search a {
   content: "";
   height: 100%;
   width: 500%;
-  background: #5e5e5e;
+  background: white;
   z-index: -1;
   transform: skewX(15deg);
 }
