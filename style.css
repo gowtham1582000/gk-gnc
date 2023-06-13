@@ -4618,7 +4618,7 @@ ul.achivement li .medium {
 }
 
 .yellow .why-us-area .info li::after {
-  color: #5e5e5e;
+  color: white;
 }
 
 .why-us-area .info li h5 {
@@ -8862,7 +8862,6 @@ nav.navbar.bootsnav.no-background li.search a {
   display: flex;
   align-items: center;
   padding-top: 35px;
-  border-top: 1px solid #e7e7e7;
 }
 
 .about-style-three .award i {
