@@ -8573,7 +8573,7 @@ nav.navbar.bootsnav.no-background li.search a {
      # Home Seven / Business Home
 =================================================================== */
 .topbar-style-three img {
-  height: 60px;
+  height: 80px;
 }
 
 .topbar-style-three .info ul {
@@ -8653,12 +8653,12 @@ nav.navbar.bootsnav.no-background li.search a {
 .banner-area.banner-style-seven .content h2 {
   font-weight: 300;
   text-transform: uppercase;
-  font-size: 100px;
+  font-size: 50px;
   line-height: 1;
 }
 
 .banner-area.banner-style-seven .content h2 strong {
-  font-size: 140px;
+  font-size: 70px;
   line-height: 120px;
 }
 
@@ -8745,7 +8745,6 @@ nav.navbar.bootsnav.no-background li.search a {
   left: 0;
   top: 0;
   content: "";
-  height: 100%;
   width: 100px;
   background: #ffffff;
   z-index: 1;
