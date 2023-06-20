@@ -1831,8 +1831,7 @@ nav.navbar.bootsnav {
   }
 
   nav.navbar.bootsnav ul.nav > li > a:hover {
-    color: #FF5E14;
-  }
+    }
 
   .yellow nav.navbar.bootsnav ul.nav > li > a:hover {
     color: #232323;
